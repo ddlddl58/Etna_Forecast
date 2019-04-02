@@ -27,7 +27,7 @@ LOG="/tmp/${DATELOG}.txt"
 
 cd ${REPO_DIR}
 ${GIT} add --all .
-${GIT} commit -m "Test commit 3"
+${GIT} commit -m "Test commit 4"
 #export GIT_SSL_NO_VERIFY=1
 
 
