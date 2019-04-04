@@ -46,10 +46,10 @@ else:
 #subprocess.call("mkdir /home/federica/Scrivania/Research_INGV/Etna_Forecast/hysplit/"+str(plot_dir), shell = True)
 subprocess.call("cp /home/utente/Scrivania/Codes/Etna_Forecast/hysplit/*.pdf "+str(plot_dir), shell = True)
 
-#subprocess.call("/usr/bin/python2.7 /home/federica/Scrivania/Research_INGV/Etna_Forecast/hysplit/clean_all.py", shell = True)
+subprocess.call("/usr/bin/python2.7 /home/utente/Scrivania/Codes/Etna_Forecast/hysplit/clean_all.py", shell = True)
 
 #subprocess.call("cp -r "+str(plot_dir)+" /home/federica/Scrivania/Research_INGV/GIT/Etna_Forecast/", shell = True)
-#subprocess.call("rm -r "+str(plot_dir), shell = True)
+subprocess.call("rm -r "+str(plot_dir), shell = True)
 
 
 
