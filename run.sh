@@ -17,7 +17,8 @@ YEAR=$(date -d "$D" '+%Y')
 folder=$DAY$MONTH$YEAR
 
 /home/utente/dropbox_uploader.sh upload /home/utente/Scrivania/Codes/Etna_Forecast/hysplit/$folder Etna_Forecast 
-rm -r /home/utente/Scrivania/Codes/Etna_Forecast/hysplit/$folder
+
+#rm -r /home/utente/Scrivania/Codes/Etna_Forecast/hysplit/$folder 
 
 #cd /home/federica/Scrivania/Research_INGV/GIT/Etna_Forecast
 #git add $folder
@@ -25,3 +26,4 @@ rm -r /home/utente/Scrivania/Codes/Etna_Forecast/hysplit/$folder
 #git push
 
 echo "***** End *****"
+

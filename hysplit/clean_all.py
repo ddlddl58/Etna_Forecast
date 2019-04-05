@@ -80,7 +80,7 @@ filelist = glob.glob('sample_dep*')
 for f in filelist:
     os.remove(f)
 
-filelist = [ 'PARDUMP' , 'WARNING' , 'STARTUP' , 'VMSDIST', 'con2stn.txt' , 'plume_model.temp1' , 'plume_model.temp2' , 'check_part.out', 'check_gas.out']
+filelist = [ 'PARDUMP' , 'WARNING' , 'STARTUP' , 'VMSDIST', 'con2stn.txt' , 'plume_model.temp1' , 'plume_model.temp2' , 'check_part.out', 'check_gas.out', 'CON2ASC.GROUND']
 
 for f in filelist:
     try:

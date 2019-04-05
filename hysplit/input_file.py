@@ -1,9 +1,9 @@
 hysplit_dir = "/home/utente/hysplit"
 plumemom_dir = "/home/utente/Scrivania/Codes/PLUME-MoM-Multigas"
-runname = "04042019_07"
-starttime= "19 04 04 07 00" # Year,month,day,hour,minute
-endemittime = "19 04 04 15 00"
-endruntime = "19 04 04 15 00"
+runname = "05042019_10"
+starttime= "19 04 05 10 00" # Year,month,day,hour,minute
+endemittime = "19 04 05 18 00"
+endruntime = "19 04 05 18 00"
 deltat_plumemom = 3600  # seconds
 
 lat = 37.73   # center latitude of the grid

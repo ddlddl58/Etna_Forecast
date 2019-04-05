@@ -27,7 +27,7 @@ DUMP_PART="cdump_part_$result"
 
 echo "-------------- check mass ---------------"
 
-#${MDL}/exec/con2asc -i$DUMP_PART -t -x -z
+${MDL}/exec/con2asc -i$DUMP_PART -t -x -z
 
 mv CON2ASC.OUT CON2ASC.AIR
 
